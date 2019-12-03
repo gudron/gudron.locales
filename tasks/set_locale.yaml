@@ -1,0 +1,10 @@
+---
+# - name: Ensure a locale exists
+#   locale_gen:
+#     name: "{{ locale_name }}"
+#     state: present
+#   loop:
+#     - "ru_RU"
+#     - "ru_RU.UTF-8"
+#   loop_control:
+#       loop_var: locale_name
